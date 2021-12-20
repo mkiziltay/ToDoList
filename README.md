@@ -1,25 +1,25 @@
 ## ToDoList
 
 ```bash
-basic to do list app, note application
+# To Do List App. , Note App.
 ```
 
 ## Usage
 
 ```bash
-#Google firebase
+# Google firebase
 
-#Android Studio
+# Android Studio
 
-#Fragment( open dialog )
+# Fragment( open dialog )
 
 ```
 
 ## Not completed futures
 
 ```bash
-*Updating notes
-*Deleting noted
+* Updating notes
+* Deleting notes
 
 ```
 
