@@ -15,7 +15,7 @@ basic to do list app, note application
 
 ```
 
-##Not completed futures
+## Not completed futures
 
 ```bash
 *Updating notes
