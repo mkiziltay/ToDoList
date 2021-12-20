@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shaperound"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/titlef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not Başlığı"
+            android:textColor="#FFEB3B"
+            android:fontFamily="sans-serif-condensed-medium"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:textSize="23dp"
+            android:layout_gravity="center_horizontal"/>
+
+
+
+    <EditText
+        android:id="@+id/descf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not Açıklaması"
+        style="@style/CardView"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not Tarihi : "
+            android:textStyle="bold"
+            style="@style/CardView"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/addtimef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not Tarihi : "
+            style="@style/CardView"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hatırlatma Tarihi : "
+            android:textStyle="bold"
+            style="@style/CardView"
+            android:textSize="18dp"/>
+        <EditText
+            android:id="@+id/notftimef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notf Tarihi : "
+            style="@style/CardView"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/updatef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Güncelle"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:background="#8BC34A"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/deletef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notu Sil"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:background="#FFC107"
+            android:fontFamily="sans-serif-condensed"
+            />
+    </LinearLayout>
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

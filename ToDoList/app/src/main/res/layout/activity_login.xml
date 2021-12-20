@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="ToDoList"
+        style="@style/CardView.Dark"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="50dp"
+        android:textColor="#2196F3"
+        android:textSize="35dp"/>
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:hint="E-Mail adresinizi giriniz"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Şifrenizi  giriniz"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Giriş"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="end"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Hesabınız yok mu?  "
+            style="@style/CardView.Dark"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="15dp"/>
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=" Kaydolun"
+            style="@style/CardView.Dark"
+            android:textStyle="bold"
+            android:textColor="#2196F3"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
