@@ -12,6 +12,7 @@
 # Android Studio
 
 # Espresso Library
+ * androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
 # Fragment( open dialog )
 
