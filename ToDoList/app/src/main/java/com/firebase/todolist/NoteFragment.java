@@ -24,6 +24,8 @@ public class NoteFragment extends DialogFragment {
         // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_note, container, false);
         definition();
+  // Do Fragment background transparent.
+        getDialog().getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         return view;
     }
 
