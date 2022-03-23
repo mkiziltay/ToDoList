@@ -2,7 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:layout_marginLeft="5dp"
+    android:layout_marginBottom="15dp"
+    android:padding="5dp"
     android:background="@drawable/rounded"
     android:orientation="vertical">
 
@@ -16,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Not Başlığı"
-            android:textColor="#F1C40F"
+            android:textColor="#F3C602"
             android:fontFamily="sans-serif-condensed-medium"
             style="@style/TextAppearance.AppCompat.Title"
             android:textSize="23dp"
@@ -28,8 +34,6 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp" />
     </LinearLayout>
-
-
 
     <TextView
         android:id="@+id/desc"
@@ -44,6 +48,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
         android:orientation="horizontal"
         android:layout_marginTop="10dp">
         <TextView
@@ -66,6 +71,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
         android:orientation="horizontal"
         android:layout_marginTop="5dp">
         <TextView
@@ -90,10 +96,9 @@
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="25dp"/>
     </LinearLayout>
-    <View
-        android:id="@+id/colored_bar"
-        android:layout_width="match_parent"
-        android:layout_height="8dp"
-        android:background="@color/white" />
+
 
 </LinearLayout>
+</LinearLayout>
+
+
