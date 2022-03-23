@@ -10,8 +10,8 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/mtoolbar"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:background="#4CFDFC"/>
+        android:layout_height="45dp"
+        android:background="#1D74D1"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
