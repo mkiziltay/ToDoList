@@ -23,8 +23,7 @@
 
 ```
 ## ScreenView
-<img src="https://github.com/mkiziltay/ToDoList/blob/main/Screenshot_1648034122.png" alt = "ToDoList_app" width=340 height=700,
-src="https://raw.githubusercontent.com/mkiziltay/Lesson_Average_App/master/app_screenshot.png" alt = "Average_app" width=340 height=700>
+<img src="https://github.com/mkiziltay/ToDoList/blob/main/Screenshot_1648034122.png" alt = "ToDoList_app" width=340 height=700>
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
